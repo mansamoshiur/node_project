@@ -1,7 +1,7 @@
 const http = require('http')
 const fs = require('fs')
 
-const PORT =process.env.PORT | 3030
+const PORT =process.env.PORT;
 const hostName = '127.0.0.1'
 const myServer = http.createServer((req,res)=>{
     const routerFile = (statusCode, fileLocetion,)=>{
